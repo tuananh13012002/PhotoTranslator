@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appsflyer" translatable="false">LikYKU2zUYTct7BoQ7MuJY</string>
+    <string name="facebook_app_id" translatable="false">220414317634622</string>
+    <string name="facebook_client_token" translatable="false">2d3e18b9df8b98d6efc6ab34ac77ce56</string>
+    <!--    ads test-->
+    <string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="inter_splash" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="inter_intro" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="native_language" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="native_language1" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="native_intro" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="native_permission" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="appopen_resume" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
+
+    <string name="banner_all" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="banner_collab" translatable="false">ca-app-pub-3940256099942544/2014213617</string>
+
+    <string name="native_home" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="inter_guide" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="inter_details" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="native_language2" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="native_choose_language" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+</resources>

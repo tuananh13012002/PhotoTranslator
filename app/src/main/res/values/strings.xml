@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name" translatable="false">Camera Translator</string>
+    <string name="default_notify_title">Message</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="langToTransTitile">Choose Language</string>
+    <string name="langToTransBtnBack">Cancel</string>
+    <string name="saved_successfully">Saved Successfully!</string>
+
+    <string name="settings">Settings</string>
+    <string name="language_options">Language Options</string>
+    <string name="share_with_friends">Share with Friends</string>
+    <string name="feedback">Feedback</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="please_feedback">Please feedback</string>
+    <string name="language">Language</string>
+    <string name="about">About</string>
+
+    <string name="exit">Exit</string>
+    <string name="rate">Rate</string>
+    <string name="like_app_title">Do you like the app?</string>
+    <string name="like_app_des">Let us know your experience</string>
+
+    <string name="privacy_policy_link">https://shiptonstudio.netlify.app/policy</string>
+    // intro
+    <string name="title_intro">Place headline here </string>
+    <string name="content_intro">Place text here</string>
+    <string name="permission_title">Permission</string>
+    <string name="permission_content">Camera Translator requires permission to use the {device’s camera and folder}</string>
+    <string name="per_storage">Storage</string>
+    <string name="per_camera">Camera</string>
+    <string name="per_go">Go</string>
+    <string name="intro_next">Next</string>
+    <string name="language_title">Language</string>
+    <string name="photos_title">PHOTOS</string>
+
+    <string name="all_home"><u>See All</u></string>
+    <string name="splash_title">This action can contain ads</string>
+    // intro
+    <string name="title_intro_1">Scan Image To Text</string>
+    <string name="title_intro_2">Easy To Translate</string>
+    <string name="title_intro_3">Translate Everything</string>
+
+    <string name="content_intro_1">Scan everything you want to translate</string>
+    <string name="content_intro_2">Translate in one touch</string>
+    <string name="content_intro_3">Multi language with 100+ languages supported</string>
+    <string name="home_title">Photo Translator</string>
+    <string name="home_your_photos">Your photos</string>
+    <string name="home_recents">Recents</string>
+    <string name="detail_list_recents">Recents</string>
+    <string name="detail_list_today">Today</string>
+    <string name="detail_list_yesterday">Yesterday</string>
+    <string name="scan_edit">Edit</string>
+    <string name="title_details">Details</string>
+    <string name="title_setting">Setting</string>
+    <string name="setting_language_options">Language Options</string>
+    <string name="setting_rate_us">Rate us</string>
+    <string name="setting_privacy_policy">Privacy policy</string>
+    <string name="title_dialog_rate">Rate</string>
+    <string name="title_dialog_exit">Exit</string>
+
+    <string name="title_dialog_rating_0">Do you like the app?</string>
+    <string name="content_dialog_rating_0">Let us know your experience</string>
+
+    <string name="title_dialog_rating">Oh, no!</string>
+    <string name="content_dialog_rating">Please give us some feedback</string>
+
+    <string name="title_dialog_rating_4_5">We love you too!</string>
+    <string name="content_dialog_rating_4_5">Thanks for your feedback</string>
+    <string name="home_your_photo_to">Import your photo to translate</string>
+    <string name="delete">Delete</string>
+    <string name="no_text_fail">No text found</string>
+    <string name="success_rate">"Thank you for rating the app!"</string>
+    <string name="use_rate">You have already rated</string>
+    <string name="sample_file">This is the sample file</string>
+    <string name="title_guide_step1">Step 1: Select a Language</string>
+    <string name="title_guide_step2">Step 2: Capture and Translate</string>
+    <string name="text_guide_1_step1">1. On the main screen, you\'ll see a button with a flag icon. Tap it.</string>
+    <string name="text_guide_2_step1">2. Select the language you want to translate from (the language in the photo).</string>
+    <string name="text_guide_3_step1">3. Choose the language you want to translate to (the language you want the text to be translated into).</string>
+
+    <string name="text_guide_1_step2">1. Tap the camera icon on the main screen to open your device\'s camera.</string>
+    <string name="text_guide_2_step2">2. Aim your camera at the text you want to translate. Make sure it\'s clear and well-lit.</string>
+    <string name="text_guide_3_step2">3. Press the capture button (usually a circle or a camera icon) to take a photo.</string>
+
+    <string name="text_guide_4_step2">4. Wait a moment while the app processes the image.</string>
+    <string name="text_guide_5_step2">5. The translated text will appear on your screen.</string>
+    <string name="text_loading">Please wait for the data processing...</string>
+
+    <string name="quit">Quit</string>
+    <string name="want_to_close_the_app">Want to close the app ?</string>
+    <string name="ok">OK</string>
+    <string name="txt_thankyou">Thank you</string>
+
+
+</resources>

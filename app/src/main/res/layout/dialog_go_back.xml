@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_card_ads"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <TextView
+            android:background="@drawable/bg_dialog_encoding"
+            android:textSize="@dimen/_16sdp"
+            android:paddingVertical="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/quit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:gravity="center"
+            android:text="@string/want_to_close_the_app"
+            android:textColor="#2D2D2D"
+            android:textSize="14sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ctConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview"
+            android:layout_marginBottom="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:minWidth="100dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:id="@+id/bt_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/border_button_install_ads"
+                android:text="@string/langToTransBtnBack"
+                app:layout_constraintEnd_toStartOf="@+id/bt_yes"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:gravity="center"
+                android:id="@+id/bt_yes"
+                android:minWidth="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/border_button_install_ads"
+                android:text="@string/ok"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/bt_cancel"
+                tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</RelativeLayout>

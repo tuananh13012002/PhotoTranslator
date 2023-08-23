@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_notify_title">संदेश</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">नमस्ते खाली फ्रेगमेंट</string>
+    <string name="langToTransTitile">भाषा चुनें</string>
+    <string name="langToTransBtnBack">रद्द करें</string>
+    <string name="saved_successfully">सफलतापूर्वक सहेजा गया!</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="language_options">भाषा विकल्प</string>
+    <string name="share_with_friends">दोस्तों के साथ साझा करें</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="rate_us">हमें रेट करें</string>
+    <string name="please_feedback">कृपया प्रतिक्रिया दें</string>
+    <string name="language">भाषा</string>
+    <string name="about">हमारे बारे में</string>
+
+    <string name="exit">बाहर निकलें</string>
+    <string name="rate">रेट करें</string>
+    <string name="like_app_title">क्या आपको ऐप पसंद है?</string>
+    <string name="like_app_des">हमें अपने अनुभव के बारे में बताएं</string>
+
+
+    <string name="privacy_policy_link">https://shiptonstudio.netlify.app/policy</string>
+    // intro
+    <string name="title_intro">यहां शीर्षक डालें</string>
+    <string name="content_intro">यहां पाठ डालें</string>
+    <string name="permission_title">अनुमति</string>
+
+    <string name="permission_content">Camera Translator को {डिवाइस के कैमरा और फ़ोल्डर} का उपयोग करने के लिए परमिशन की आवश्यकता होती है।</string>
+    <string name="per_storage">स्टोरेज</string>
+    <string name="per_camera">कैमरा</string>
+    <string name="per_go">आगे बढ़ें</string>
+    <string name="intro_next">आगे</string>
+    <string name="language_title">भाषा</string>
+    <string name="photos_title">फ़ोटो</string>
+
+    <string name="all_home"><u>सभी</u></string>
+    <string name="splash_title">इस कार्रवाई में विज्ञापन हो सकते हैं</string>
+    // परिचय
+    <string name="title_intro_1">छवि से पाठ को स्कैन करें</string>
+    <string name="title_intro_2">आसान अनुवाद</string>
+    <string name="title_intro_3">सब कुछ अनुवाद करें</string>
+
+    <string name="content_intro_1">जितना भी आप अनुवाद करना चाहते हैं, उसे स्कैन करें</string>
+    <string name="content_intro_2">एक स्पर्श में अनुवाद करें</string>
+    <string name="content_intro_3">100+ भाषाओं के साथ बहुभाषी समर्थित</string>
+    <string name="home_title">फोटो अनुवादक</string>
+    <string name="home_your_photos">आपकी फ़ोटोज़</string>
+    <string name="home_recents">हाल के</string>
+    <string name="detail_list_recents">हाल के</string>
+    <string name="detail_list_today">आज</string>
+    <string name="detail_list_yesterday">कल</string>
+    <string name="scan_edit">संपादित करें</string>
+    <string name="title_details">विवरण</string>
+    <string name="title_setting">सेटिंग</string>
+    <string name="setting_language_options">भाषा विकल्प</string>
+    <string name="setting_rate_us">हमें मूल्यांकन करें</string>
+    <string name="setting_privacy_policy">गोपनीयता नीति</string>
+    <string name="title_dialog_rate">मूल्यांकन करें</string>
+    <string name="title_dialog_exit">बंद करें</string>
+
+    <string name="title_dialog_rating_0">क्या आपको ऐप पसंद है?</string>
+    <string name="content_dialog_rating_0">हमें अपने अनुभव के बारे में बताएं</string>
+
+    <string name="title_dialog_rating">ओह, नहीं!</string>
+    <string name="content_dialog_rating">कृपया हमें कुछ प्रतिक्रिया दें</string>
+
+    <string name="title_dialog_rating_4_5">हम भी आपसे प्यार करते हैं!</string>
+    <string name="content_dialog_rating_4_5">आपके प्रतिक्रिया के लिए धन्यवाद</string>
+
+    <string name="home_your_photo_to">अपनी फ़ोटो को अनुवाद करने के लिए आयात करें</string>
+
+    <string name="delete">हटाएं</string>
+    <string name="no_text_fail">कोई टेक्स्ट नहीं मिला</string>
+    <string name="success_rate">"ऐप की रेटिंग के लिए धन्यवाद!"</string>
+    <string name="use_rate">आपने पहले से ही रेट किया है</string>
+    <string name="sample_file">यह नमूना फ़ाइल है</string>
+
+    <string name="title_guide_step1">चरण 1: भाषा का चयन करें</string>
+    <string name="title_guide_step2">चरण 2: फोटो लें और अनुवाद करें</string>
+
+    <string name="text_guide_1_step1">1. मुख्य स्क्रीन पर, आपको एक ध्वज आइकन वाला बटन दिखेगा। उसे टैप करें।</string>
+    <string name="text_guide_2_step1">2. उस भाषा का चयन करें जिसे आप अनुवाद करना चाहते हैं (तस्वीर में भाषा)।</string>
+    <string name="text_guide_3_step1">3. उस भाषा का चयन करें जिसे आप अनुवाद करना चाहते हैं (जिस भाषा में आप टेक्स्ट को अनुवाद करना चाहते हैं)।</string>
+
+    <string name="text_guide_1_step2">1. मुख्य स्क्रीन पर कैमरा आइकन पर टैप करें ताकि आपके डिवाइस कैमरा खुल सके।</string>
+    <string name="text_guide_2_step2">2. आपके कैमरे को उस टेक्स्ट पर ले जाएं जिसे आप अनुवाद करना चाहते हैं। सुनिश्चित करें कि यह स्पष्ट और अच्छे प्रकार से प्रकाशित हो।</string>
+    <string name="text_guide_3_step2">3. कैप्चर बटन पर दबाएं (आमतौर पर एक वृत्त या एक कैमरा आइकन होता है) ताकि आप एक फोटो ले सकें।</string>
+
+    <string name="text_guide_4_step2">4. ऐप्लिकेशन छवि को प्रोसेस करते समय कुछ समय तक प्रतीक्षा करें।</string>
+    <string name="text_guide_5_step2">5. अनुवादित पाठ आपकी स्क्रीन पर दिखाई देगा।</string>
+    <string name="text_loading">कृपया डेटा प्रोसेसिंग की प्रतीक्षा करें...</string>
+
+    <string name="quit">छोड़ना</string>
+    <string name="want_to_close_the_app">ऐप बंद करना चाहते हैं?</string>
+    <string name="ok">ठीक</string>
+    <string name="txt_thankyou">धन्यवाद</string>
+</resources>

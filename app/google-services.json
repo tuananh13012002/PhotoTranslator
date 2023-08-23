@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "298161913029",
+    "project_id": "app83-photo-translator",
+    "storage_bucket": "app83-photo-translator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298161913029:android:f46922287e008bd69ec4ac",
+        "android_client_info": {
+          "package_name": "com.image.photo.translator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298161913029-h6pr8c477fs8g7hvug3rf87ic0dhq3me.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhumAsH3hEePCiO4tEruG3jeEM42Cu4q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298161913029-h6pr8c477fs8g7hvug3rf87ic0dhq3me.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

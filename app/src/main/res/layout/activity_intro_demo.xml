@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/view_pager2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/ll_bottom"
+                android:layout_below="@id/ll_top" />
+
+            <LinearLayout
+                android:id="@+id/ll_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/fr_ads"
+                android:layout_alignParentEnd="true"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_circle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@id/tv_get_start"
+                        android:orientation="horizontal"
+                        tools:ignore="SmallSp">
+
+                        <ImageView
+                            android:id="@+id/view_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_view_select" />
+
+                        <ImageView
+                            android:id="@+id/view_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/ic_view_un_select" />
+
+                        <ImageView
+                            android:id="@+id/view_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_view_un_select" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv_get_start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginEnd="0dp"
+                        android:gravity="end"
+                        android:text="@string/intro_next"
+                        android:textColor="@color/color_00B292"
+                        android:textSize="@dimen/_14sdp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_10sdp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/fr_ads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <include layout="@layout/ads_native_shimer" />
+            </FrameLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

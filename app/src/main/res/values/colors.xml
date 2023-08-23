@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryColor">#000000</color>
+    <color name="primaryLightColor">#000000</color>
+    <color name="primaryDarkColor">#000000</color>
+
+    <color name="primaryTextColor">#000000</color>
+    <color name="error_color">@android:color/holo_red_light</color>
+    <color name="light_text_color">#FFFFFFFF</color>
+    <color name="text_color">#333333</color>
+    <color name="hint_text_color">#B7B7B7</color>
+    <color name="regular_price_color">#cbcbcb</color>
+    <color name="inactive_text_color">#8D8D8D</color>
+    <color name="background_splash_color">#FF6C2F</color>
+
+    <color name="background_header_color">@color/primaryColor</color>
+
+    <color name="icon_color_bottom_normal">@color/primaryLightColor</color>
+    <color name="icon_color_bottom_selected">@color/primaryColor</color>
+
+
+    <color name="icon_color_normal">#B7B7B7</color>
+    <color name="dot_indicator">#6A6A6A</color>
+    <color name="selected_dot">#7879F1</color>
+
+    <color name="color_title_settings">#4B4B4B</color>
+    <color name="color_text_settings">#323232</color>
+    <color name="color_bg_settings">#EFFAFF</color>
+    <color name="click">#DCEBD1</color>
+    <color name="color_00B292">#00B292</color>
+
+
+
+</resources>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="335dp"
+                    android:background="@drawable/bg_home_fr"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_header_home"
+                        android:fontFamily="sans-serif-black"
+                        android:paddingTop="13dp"
+                        android:paddingBottom="13dp"
+                        android:gravity="center"
+                        android:text="@string/home_title"
+                        android:textColor="#00B292"
+                        android:textSize="18sp" />
+                    <ImageView
+                        android:id="@+id/iv_about"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginEnd="30dp"
+                        android:src="@drawable/ic_about_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/banner_home" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="-50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_home_test">
+                    <!--                transalte-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <FrameLayout
+                            android:id="@+id/layout_translate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:id="@+id/form_lang"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="2"
+                                    android:background="@drawable/bg_from_lang_home"
+                                    android:elevation="2dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+                                    android:padding="15dp">
+
+                                    <ImageView
+                                        android:id="@+id/img_lang_from"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/color_united_kingdom" />
+
+                                    <TextView
+                                        android:id="@+id/lang_from"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:drawableEnd="@drawable/ic_up"
+                                        android:drawableTint="#C3C3C3"
+                                        android:paddingEnd="10dp"
+                                        android:singleLine="true"
+                                        android:text="UK"
+                                        android:textColor="@color/black"
+                                        android:textSize="16sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/to_lang"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_weight="2"
+                                    android:background="@drawable/bg_to_lang_home"
+                                    android:elevation="2dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+                                    android:padding="15dp">
+
+                                    <ImageView
+                                        android:id="@+id/img_lang_to"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:src="@drawable/color_france" />
+
+                                    <TextView
+                                        android:id="@+id/lang_to"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="5dp"
+                                        android:drawableEnd="@drawable/ic_up"
+                                        android:drawableTint="@color/white"
+                                        android:paddingEnd="10dp"
+                                        android:singleLine="true"
+                                        android:text="UK"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/btn_swap_lang"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="-3.8dp"
+                                android:src="@drawable/ic_translate" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/layout_translate"
+                            android:layout_gravity="bottom"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:id="@+id/frm_native"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginBottom="12dp"
+                                android:visibility="visible">
+
+                                <include
+                                    android:id="@+id/layout_shimmer"
+                                    layout="@layout/ads_shimmer_native_small" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="sans-serif-black"
+                                    android:text="@string/home_recents"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/all"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/all_home"
+                                    android:textColor="#949494"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rv"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                                app:spanCount="3"
+                                android:nestedScrollingEnabled="false"
+                                tools:listitem="@layout/item_photo" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_library"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/bg_photo_library"
+                        android:padding="15dp"
+                        android:visibility="gone"
+                        android:src="@drawable/ic_library" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</layout>
